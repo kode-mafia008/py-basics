@@ -1,3 +1,3 @@
-a = input("Enter a number: ")
-a = int(a) # Convert a to an Integer(if possible)
-print(type(a))
+a = input("Enter your name: ")
+a = int(a) # Convert a to an integer(If possible)
+print(a)
