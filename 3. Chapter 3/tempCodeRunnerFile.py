@@ -1,1 +1,1 @@
-se is nice!\n Thanks!"
+print(name)

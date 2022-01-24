@@ -6,8 +6,8 @@ Thanks and regards,
 Bill
 Date: <|DATE|>
 '''
-name = input("Enter Your Name\n")
-date = input("Enter Date\n")
-letter = letter.replace("<|NAME|>", name)
-letter = letter.replace("<|DATE|>", date)
+name = input('Enter you name: \n')
+date = input('Enter date: \n')
+letter=letter.replace('<|NAME|>',name)
+letter=letter.replace('<|DATE|>', date)
 print(letter)

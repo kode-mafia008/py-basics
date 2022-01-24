@@ -1,21 +1,24 @@
-# greeting = "Good Morning, "
-# name = "Harry"
-# print(type(name))
+name = 'KodeMafia'
+greeting = 'Good afternoon, '
+print(type(name))
+# Concatenate two strings
+print(greeting + name)
+# print(name[0])
+# print(name[-1])
 
-# Concatenating two strings
-# c = greeting + name
-# print(c)
-name = "Harry"
-# print(name[4])
-# name[3] = "d" --> Does not work
+#!doesn't work
+# name[2] = 'd' 
 
-# print(name[1:4])
-# print(name[:4]) # is same as name[0:4]
-# print(name[1:]) # is same as name[1:5]
-# c = name[-4:-1] # is same is name[1:4]
-# print(c)
+# print(name[0:3])
 
-name = "HarryIsGood"
-# d = name[0::3]
-d = name[:0:-1]
-print(d)
+# print(name[:3]) #? is same as name[0:4]
+# print(name[0:]) #? is same as name[0:lastindex_of_string or length of string]
+
+# print(name[-3:-1]) #? KodeMafia
+# print(name[-4:-1]) #? KodeMafia
+
+
+# print(name[1:3:1])  #? KodeMafia
+# print(name[1::1])  #? KodeMafia
+# print(name[1::2])  #? KodeMafia
+# print(name[1::3])  #? KodeMafia

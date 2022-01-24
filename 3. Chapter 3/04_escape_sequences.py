@@ -1,2 +1,2 @@
-story = "Harry is good.\nHe\tis ve\\ry good"
+story = 'Once upon a time \t mumbai were called \n Bombay'
 print(story)

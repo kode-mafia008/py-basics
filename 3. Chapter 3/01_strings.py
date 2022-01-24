@@ -1,6 +1,4 @@
-# b = "Harry's" # --> Use this if you have single quotes in your strings
-# b = 'Harry"s'
-b = '''Harry"s and 
-       Harry's'''
-print(b)
-# print(type(b))
+a = 34
+b = '''Erus \n \t Data '''
+print(a, b)
+print(type(b))
