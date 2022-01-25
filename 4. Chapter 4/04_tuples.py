@@ -1,13 +1,17 @@
-# Creating a tuple using ()
-t = (1, 2, 4, 5)
+# creating a tuple using ()
+t = (1, 2, 3, 4, 5)
 
-# t1 = () # Empty tuple
-# t1 = (1) # Wrong way to declare a Tuple with Single element
-t1 = (1,) # Tuple with Single element
-print(t1)
-
-# Printing the elements of a tuple
+# printing the elements of tuple
 # print(t[0])
 
-# Cannot update the values of a tuple
-# t[0] = 34 # throws an error
+#! can't change the data of tuple
+# t[0] = 5
+
+# a = ()  # empty tuple
+# print(a)
+
+# a = (1,)  # tuple with only one element
+# print(a)
+
+# a = (1, 7, 2)  # tuple with more than one element
+# print(a)

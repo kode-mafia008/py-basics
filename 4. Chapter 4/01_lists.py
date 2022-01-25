@@ -1,17 +1,18 @@
-# Create a list using []
-a = [1, 2 , 4, 56, 6]
+# create a list using []
 
-# Print the list using print() function
-print(a)
+a = [1, 2, 3, 56, 6, 78]
+a[0] = 98  # change the value of list using #? a[index] = value
 
-# Access using index using a[0], a[1], a[2]
-print(a[2])
+# print the list using print() function
+# print(a)
 
-# Change the value of list using
-a[0] = 98
-print(a)
+# Access using index using a[0], a[1], a[2]...
+# print(a[1])
 
-# We can create a list with items of different types
-c = [45, "Harry", False, 6.9]
-print(c)
+# we can create list with items of different type
+b = [45, 'Erus', False, 6.9]
+print(b)
 
+# List slicing
+friends = ['erus', 'kodemafia', 'dharmendra', 'chikram', 'ajay']
+print(friends[-4:])  #? List slicing

@@ -1,4 +1,4 @@
 # List slicing
-friends = ["Harry", "Tom", "Rohan", "Sam", "Divya", 45]
-print(friends[0:4])
-print(friends[-4:])
+friends = ['erus', 'kodemafia', 'dharmendra', 'chikram', 'ajay', 45]
+
+print(friends[2:])
