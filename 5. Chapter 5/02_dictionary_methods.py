@@ -1,28 +1,25 @@
 myDict = {
-    "fast": "In a Quick Manner",
-    "harry": "A Coder",
-    "marks": [1, 2, 5],
-    "anotherdict": {'harry': 'Player'},
+    'fast': 'In a Quick Manner',
+    'Erus': 'A coder',
+    'Marks': [0, 1, 2, 3],
+    'anotherdict': {'erus': 'kodemafia'},
     1: 2
 }
-
-# Dictionary Methods
-print(list(myDict.keys())) # Prints the keys of the dictionary
-print(myDict.values()) # Prints the keys of the dictionary 
-print(myDict.items()) # Prints the (key, value) for all contents of the dictionary 
+# myDict['Marks'] = [5,4,3]
+# print(myDict['Marks'][2])
+# print(myDict)
+# print(type(myDict.keys())) #Prints the keys of the dictionary
+# print(list(myDict.values())) #prints the values of the dictionary
+# print(list(myDict.items())) #prints the (key,value) for all the contents of the dictionary
 print(myDict)
 updateDict = {
-    "Lovish": "Friend",
-    "Divya": "Friend",
-    "Shubham": "Friend",
-    "harry": "A Dancer"
+    'hero': 'jet',
 }
-myDict.update(updateDict) # Updates the dictionary by adding key-value pairs from updateDict
+# updates the dictionary by adding key-value pairs for all the content of list
+myDict.update(updateDict)
 print(myDict)
 
-print(myDict.get("harry")) # Prints value associated with key "harry"
-print(myDict["harry"]) # Prints value associated with key "harry"
-
-# The difference between .get and [] sytax in Dictionaries?
-print(myDict.get("harry2")) # Returns None as harry2 is not present in the dictionary
-print(myDict["harry2"]) # throws an error as harry2 is not present in the dictionary
+# The difference between .get and [] syntax dictionayes
+# throws an error as kodegod is not present in the list
+print(myDict["kodegod"])
+print(myDict.get)

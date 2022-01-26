@@ -1,7 +1,8 @@
-# Important: This syntax will create an empty dictionary and not an empty set
-a = {}
-print(type(a))
+# a = {}  # an empty and dictionary
+# print(type(a))
 
-# An empty set can be created using the below syntax:
-b = set()
-print(type(b))
+#An empty set can be created using below syntax
+a = set()
+
+# print(type(a))
+print(a)
