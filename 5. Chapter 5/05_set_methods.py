@@ -5,58 +5,27 @@ b = set()
 # Adding value to empty set
 b.add(3)
 b.add(4)
-b.add(4) #repeatedly putting same data won't change the set
+b.add(4)  # repeatedly putting same data won't change the set
 b.add(5)
 # b.add({1,2,3,4,5})
 
 
-# Accessing the elements 
+# Accessing the elements
 # b.add({4:5}) # cannot add a list or dict to sets
 # print(b)
 
 # len of the set
 # print(len(b))
 
-#Removal of an Item
+# Removal of an Item
 # b.remove(5)
 # b.remove(15) # throws an error 'cause 15 isn't in the set
 b.pop()
 print(b)
-
-
-
-
+print(b)
 
 
 3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # ## Accessing Elements
