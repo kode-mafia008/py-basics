@@ -1,8 +1,8 @@
-# a = None
-# if (a is None):
-#     print("Yes")
-# else:
-#     print("No")
+a = None
+if(a is None):
+    print('None ')
+else:
+    print('Not None')
 
-a = [45, 56, 6]
-print(435 in a)
+a = [34, 45, 50, 60]
+print(30 in a)
