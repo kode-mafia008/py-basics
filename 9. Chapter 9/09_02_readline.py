@@ -1,17 +1,18 @@
-f = open('sample.txt')
+f = open('9. Chapter 9/sample.txt')
 # read first line
-data = f.readline() 
+data = f.readline()
 print(data)
 
-# Read second line
-data = f.readline() 
+# read second line
+data = f.readline()
 print(data)
 
-# Read third line
-data = f.readline() 
+# read third line 
+data = f.readline()
 print(data)
 
-# Read fourth line... and so on...
-data = f.readline() 
+# read fourth line
+data = f.fileno()
 print(data)
+
 f.close()
