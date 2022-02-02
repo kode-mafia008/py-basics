@@ -1,4 +1,4 @@
-class Remote():
+class Remote(): 
     pass
 
 class Player:

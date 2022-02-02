@@ -1,28 +1,33 @@
 class Employee:
-    company = "Google"
+    company = 'Google'
 
     def __init__(self, name, salary, subunit):
+        print('Employee initialised!!!.')
         self.name = name
         self.salary = salary
         self.subunit = subunit
-        print("Employee is created!") 
 
     def getDetails(self):
-        print(f"The name of the employee is {self.name}")
-        print(f"The salary of the employee is {self.salary}")
-        print(f"The subunit of the employee is {self.subunit}")
-
-    def getSalary(self, signature):
-        print(f"Salary for this employee working in {self.company} is {self.salary}\n{signature}")
+        print(f"The name of employee is {self.name}")
+        print(f"The name of employee is {self.salary}")
+        print(f"The name of employee is {self.subunit}")
 
     @staticmethod
     def greet():
-        print("Good Morning, Sir")
+        print('Good morning, Sir.')
 
     @staticmethod
     def time():
-        print("The time is 9AM in the morning")
+        print('Time is 9 AM in the morning.')
 
-harry = Employee("Harry", 100, "YouTube")
-# harry = Employee() --> This throws an error (missing 3 required positional arguments:)
-harry.getDetails()
+    def getSalary(self):
+        print(
+            f"Salary for this employee working in {self.company} is {self.salary}k")
+
+
+erus = Employee('Erus', 100, 'Google')
+# erus = Employee() # error:- missing 3 positional arguements
+# erus.salary = 100
+# erus.getSalary()
+erus.getDetails()
+# erus.greet()
