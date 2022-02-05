@@ -1,5 +1,5 @@
 class Employee:
-    company = "Bharat Gas"
+    company = "Nepal Oil Corporation"
     salary = 5600
     salarybonus = 400
     # totalSalary = 6100

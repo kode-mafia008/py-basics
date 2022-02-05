@@ -1,29 +1,33 @@
 class Person:
-    country = "India"
+    country = 'Nepal'
+
     def takeBreath(self):
-        print("I am breathing...")
+        print('I am breathing.....')
+
 
 class Employee(Person):
-    company = "Honda"
+    company = 'Honda'
 
     def getSalary(self):
-        print(f"Salary is {self.salary}")
-    
+        print(f"Salary is {self.company}")
+
     def takeBreath(self):
-        print("I am an Employee so I am luckily breathing..")
+        print('I am an Employee so I am luckily breathing.... ')
+
 
 class Programmer(Employee):
-    company = "Fiverr"
-    
+    company = 'Fiverr'
+
     def getSalary(self):
         print(f"No salary to programmers")
-    
+
     def takeBreath(self):
-        print("I am a Progarmmer so I am breathing++..")
+        print('I am a Progarmmer so I am breathing++...')
+
 
 p = Person()
 p.takeBreath()
-# print(p.company) # throws an error
+print(p.company)  # no company instance in Person class
 
 e = Employee()
 e.takeBreath()
